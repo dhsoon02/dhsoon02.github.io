@@ -6,9 +6,9 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Welcome! I am an undergraduate student at DGIST, Department of Computer Science and Engineering. I am doing a research internship in the 3D Vision & Robotics Lab at UNIST.
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  Contact: dhsoon@dgist.ac.kr
 </p>
