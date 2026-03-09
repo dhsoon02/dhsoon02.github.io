@@ -1,207 +1,231 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>Donghyeon Soon</title>
-
-<meta name="author" content="Donghyeon Soon">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Donghyeon Soon</title>
+  <meta name="author" content="Donghyeon Soon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
+  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td>
 
-<table style="width:100%;max-width:820px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td>
+          <!-- Intro -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
+            <tbody>
+              <tr>
+                <td style="padding:2.5%;width:64%;vertical-align:middle;">
+                  <p class="name" style="text-align:center;font-size:32px;">
+                    Donghyeon Soon
+                  </p>
 
-<!-- Intro -->
+                  <p>
+                    I am a B.S. student in Computer &amp; Electronics Engineering at
+                    <a href="https://www.dgist.ac.kr/eng/">DGIST</a>, South Korea.
+                    My research interests lie in computer vision, generative AI, 3D vision, and robotics.
+                  </p>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
-<tbody>
-<tr>
+                  <p>
+                    I work on problems related to 3D/4D reconstruction, generative modeling,
+                    Gaussian Splatting, diffusion models, and parametric human/animal modeling.
+                  </p>
 
-<td style="padding:2.5%;width:64%;vertical-align:middle">
+                  <p style="text-align:center;">
+                    <a href="mailto:dhsoon@dgist.ac.kr">Email</a> &nbsp;/&nbsp;
+                    <a href="data/DonghyeonSoon_CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/">Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/dhsoon02">Github</a> &nbsp;/&nbsp;
+                    <a href="https://www.linkedin.com/">LinkedIn</a>
+                  </p>
+                </td>
 
-<p class="name" style="text-align:center;font-size:32px;">
-Donghyeon Soon
-</p>
+                <td style="padding:2.5%;width:36%;max-width:36%;">
+                  <a href="images/donghyeon_soon.jpg">
+                    <img
+                      style="width:100%;max-width:100%;border-radius:50%;object-fit:cover;"
+                      src="images/donghyeon_soon.jpg"
+                      alt="profile photo">
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<p>
-I am a B.S. student in Computer & Electronics Engineering at
-<a href="https://www.dgist.ac.kr/eng/">DGIST</a>, South Korea.
-My research interests lie in computer vision, generative AI, 3D vision, and robotics.
-</p>
+          <!-- Research header -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
+            <tbody>
+              <tr>
+                <td style="padding:16px 16px 6px 16px;width:100%;vertical-align:middle;">
+                  <h2>Research</h2>
+                  <p>
+                    I am passionate about creating models that do not yet exist — models capable of reconstructing,
+                    animating, and generating dynamic 3D and 4D content, especially for animals and humans.
+                    My work combines synthetic data pipelines, parametric animal/human models, and generative methods
+                    to lift 2D images and videos into animatable 3D/4D representations. I enjoy building tools and
+                    models that unlock new creative and scientific possibilities in computer vision and graphics.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<p>
-I work on problems related to 3D/4D reconstruction, generative modeling,
-Gaussian Splatting, diffusion models, and parametric human/animal modeling.
-</p>
+          <!-- Research entries -->
+          <table style="width:100%;border:0px;border-spacing:0px 22px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
 
-<p style="text-align:center">
+              <!-- WildAni4D -->
+              <tr>
+                <td style="padding:16px;width:22%;vertical-align:top;">
+                  <img src="images/wildani4d.jpg" width="100%" alt="WildAni4D thumbnail">
+                </td>
+                <td style="padding:16px;width:78%;vertical-align:top;">
+                  <span class="papertitle">WildAni4D: Towards 4D Animal Mesh Reconstruction</span><br>
+                  Gyeongsu Cho, Hezhen Hu, <strong>Donghyeon Soon</strong>, Changwoo Kang, Kyungdon Joo<br>
+                  <em>CVPR 2026 (Findings)</em><br>
+                  <a href="#">[paper]</a> / <a href="#">[project page]</a>
+                  <p>
+                    We present a synthetic animal video pipeline and a video transformer model for reconstructing
+                    temporally coherent 4D animal motion and global trajectories from monocular in-the-wild videos.
+                  </p>
+                </td>
+              </tr>
 
-<a href="mailto:dhsoon@dgist.ac.kr">Email</a> &nbsp/&nbsp
-<a href="data/DonghyeonSoon_CV.pdf">CV</a> &nbsp/&nbsp
-<a href="https://scholar.google.com/">Scholar</a> &nbsp/&nbsp
-<a href="https://github.com/dhsoon02">Github</a> &nbsp/&nbsp
-<a href="https://www.linkedin.com/">LinkedIn</a>
+              <!-- Dance WACV -->
+              <tr>
+                <td style="padding:16px;width:22%;vertical-align:top;">
+                  <img src="images/dance_generation.jpg" width="100%" alt="Dance generation thumbnail">
+                </td>
+                <td style="padding:16px;width:78%;vertical-align:top;">
+                  <span class="papertitle">Not Like Transformers: Drop the Beat Representation for Dance Generation with Mamba-Based Diffusion Model</span><br>
+                  Sangjune Park, Inhyeok Choi, <strong>Donghyeon Soon</strong>, Youngwoo Jeon, Kyungdon Joo<br>
+                  <em>WACV 2026</em><br>
+                  <a href="#">[paper]</a> / <a href="#">[project page]</a>
+                  <p>
+                    We propose a Mamba-based diffusion framework for music-driven dance generation with a redesigned
+                    beat representation for better motion modeling and rhythm alignment.
+                  </p>
+                </td>
+              </tr>
 
-</p>
+              <!-- Dance ICCV Workshop -->
+              <tr>
+                <td style="padding:16px;width:22%;vertical-align:top;">
+                  <img src="images/dance_generation.jpg" width="100%" alt="Dance generation workshop thumbnail">
+                </td>
+                <td style="padding:16px;width:78%;vertical-align:top;">
+                  <span class="papertitle">Not Like Transformers: Drop the Beat Representation for Dance Generation with Mamba-Based Diffusion Model</span><br>
+                  Sangjune Park, Inhyeok Choi, <strong>Donghyeon Soon</strong>, Youngwoo Jeon, Kyungdon Joo<br>
+                  <em>ICCV 2025 Workshop, Gen4AVC</em><br>
+                  <a href="#">[paper]</a> / <a href="#">[project page]</a>
+                  <p>
+                    Workshop version of our work on diffusion-based music-driven dance generation, exploring
+                    structured motion generation with Mamba-based sequence modeling.
+                  </p>
+                </td>
+              </tr>
 
-</td>
+              <!-- DogRecon IJCV -->
+              <tr>
+                <td style="padding:16px;width:22%;vertical-align:top;">
+                  <img src="images/dogrecon.jpg" width="100%" alt="DogRecon thumbnail">
+                </td>
+                <td style="padding:16px;width:78%;vertical-align:top;">
+                  <span class="papertitle">DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</span><br>
+                  Gyeongsu Cho, Changwoo Kang, <strong>Donghyeon Soon</strong>, Kyungdon Joo<br>
+                  <em>International Journal of Computer Vision (IJCV), 2025</em><br>
+                  <a href="#">[paper]</a> / <a href="#">[project page]</a>
+                  <p>
+                    DogRecon reconstructs an animatable 3D Gaussian dog from a single RGB image by incorporating
+                    canine priors and robust geometry-aware optimization.
+                  </p>
+                </td>
+              </tr>
 
-<td style="padding:2.5%;width:36%;max-width:36%">
+              <!-- DogRecon CVPR Workshop -->
+              <tr>
+                <td style="padding:16px;width:22%;vertical-align:top;">
+                  <img src="images/dogrecon.jpg" width="100%" alt="DogRecon workshop thumbnail">
+                </td>
+                <td style="padding:16px;width:78%;vertical-align:top;">
+                  <span class="papertitle">Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</span><br>
+                  Gyeongsu Cho, Changwoo Kang, <strong>Donghyeon Soon</strong>, Kyungdon Joo<br>
+                  <em>CVPR 2024 Workshop on Computer Vision for Animals (CV4Animals)</em><br>
+                  <a href="#">[paper]</a> / <a href="#">[project page]</a>
+                  <p>
+                    Early workshop version of DogRecon for animatable image-to-3D dog reconstruction from a single image.
+                  </p>
+                </td>
+              </tr>
 
-<a href="images/donghyeon_soon.jpg">
-<img style="width:100%;max-width:100%;border-radius:50%;object-fit:cover;"
-src="images/donghyeon_soon.jpg"
-alt="profile photo">
-</a>
+            </tbody>
+          </table>
 
-</td>
+          <!-- Research & Industry Experience -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
+            <tbody>
+              <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle;">
+                  <h2>Research &amp; Industry Experience</h2>
 
-</tr>
-</tbody>
-</table>
+                  <ul style="margin-top:8px;padding-left:20px;">
 
+                    <li style="margin-bottom:10px;">
+                      <strong>Undergraduate Researcher, 3D Vision &amp; Robotics Lab, UNIST</strong> (2025)<br>
+                      Worked on animal reconstruction and related 3D vision problems, including DogRecon
+                      and 4D animal motion reconstruction.
+                    </li>
 
-<!-- Research -->
+                    <li style="margin-bottom:10px;">
+                      <strong>Undergraduate Researcher, Computer Vision Lab, DGIST</strong> (2025)<br>
+                      Conducted research on computer vision and generative modeling.
+                    </li>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
-<tbody>
+                    <li style="margin-bottom:10px;">
+                      <strong>KIC Tech Frontier Program, UC Berkeley</strong> (2024)<br>
+                      Participated in a global research and innovation program focused on AI and emerging technologies.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<tr>
-<td style="padding:16px;width:100%;vertical-align:middle">
-<h2>Research</h2>
+          <!-- Education -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
+            <tbody>
+              <tr>
+                <td style="padding:16px;width:100%;vertical-align:middle;">
+                  <h2>Education</h2>
 
-<p>
-<strong>WildAni4D: Towards 4D Animal Mesh Reconstruction</strong><br>
-Gyeongsu Cho, Hezhen Hu, <strong>Donghyeon Soon</strong>, Changwoo Kang, Kyungdon Joo<br>
-CVPR 2026 (Findings) &nbsp/&nbsp <a href="#">paper</a>
-</p>
+                  <ul style="margin-top:8px;padding-left:20px;">
+                    <li>
+                      <strong>DGIST</strong>, B.S. in Computer &amp; Electronics Engineering (2022 – 2026 expected)
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<p>
-<strong>Not Like Transformers: Drop the Beat Representation for Dance Generation with Mamba-Based Diffusion Model</strong><br>
-Sangjune Park, Inhyeok Choi, <strong>Donghyeon Soon</strong>, Youngwoo Jeon, Kyungdon Joo<br>
-WACV 2026 &nbsp/&nbsp <a href="#">paper</a>
-</p>
+          <!-- Footer -->
+          <table style="width:100%;">
+            <tbody>
+              <tr>
+                <td style="text-align:right;font-size:small;padding-top:20px;">
+                  Website template adapted from academic homepage templates.
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<p>
-<strong>Not Like Transformers: Drop the Beat Representation for Dance Generation with Mamba-Based Diffusion Model</strong><br>
-Sangjune Park, Inhyeok Choi, <strong>Donghyeon Soon</strong>, Youngwoo Jeon, Kyungdon Joo<br>
-ICCV Workshop on Generative Models for Audio-Visual Creation (Gen4AVC), 2025 &nbsp/&nbsp <a href="#">paper</a>
-</p>
-
-<p>
-<strong>DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</strong><br>
-Gyeongsu Cho, Changwoo Kang, <strong>Donghyeon Soon</strong>, Kyungdon Joo<br>
-International Journal of Computer Vision (IJCV), 2025 &nbsp/&nbsp <a href="#">paper</a>
-</p>
-
-<p>
-<strong>Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</strong><br>
-Gyeongsu Cho, Changwoo Kang, <strong>Donghyeon Soon</strong>, Kyungdon Joo<br>
-CVPR Workshop on Computer Vision for Animals (CV4Animals), 2024 &nbsp/&nbsp <a href="#">paper</a>
-</p>
-
-</td>
-</tr>
-
-</tbody>
-</table>
-
-
-<!-- Research & Industry Experience -->
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
-<tbody>
-
-<tr>
-<td style="padding:16px;width:100%;vertical-align:middle">
-
-<h2>Research & Industry Experience</h2>
-
-<ul style="margin-top:8px;padding-left:20px;">
-
-<li style="margin-bottom:10px;">
-<strong>Undergraduate Researcher, VITA Group, UT Austin</strong> (2025 – Present)<br>
-Working on computer vision and generative AI research,
-focusing on 3D vision, reconstruction, and generative modeling.
-</li>
-
-<li style="margin-bottom:10px;">
-<strong>Undergraduate Researcher, 3D Vision & Robotics Lab, UNIST</strong> (2025)<br>
-Worked on animal reconstruction and related 3D vision problems,
-including DogRecon and 4D animal motion reconstruction.
-</li>
-
-<li style="margin-bottom:10px;">
-<strong>Undergraduate Researcher, Computer Vision Lab, DGIST</strong> (2025)<br>
-Conducted research on computer vision and generative modeling.
-</li>
-
-<li style="margin-bottom:10px;">
-<strong>KIC Tech Frontier Program, UC Berkeley</strong> (2024)<br>
-Participated in a global research and innovation program
-focused on AI and emerging technologies.
-</li>
-
-</ul>
-
-</td>
-</tr>
-
-</tbody>
-</table>
-
-
-<!-- Education -->
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
-<tbody>
-
-<tr>
-<td style="padding:16px;width:100%;vertical-align:middle">
-
-<h2>Education</h2>
-
-<ul style="margin-top:8px;padding-left:20px;">
-<li>
-<strong>DGIST</strong>,
-B.S. in Computer & Electronics Engineering (2022 – 2026 expected)
-</li>
-</ul>
-
-</td>
-</tr>
-
-</tbody>
-</table>
-
-
-<!-- Footer -->
-
-<table style="width:100%;">
-<tbody>
-<tr>
-<td style="text-align:right;font-size:small;padding-top:20px">
-
-Website template adapted from academic homepage templates.
-
-</td>
-</tr>
-</tbody>
-</table>
-
-</td>
-</tr>
-</tbody>
-</table>
-
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
