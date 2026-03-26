@@ -140,7 +140,3 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
-
-td[style*="width:78%"] {
-  line-height: 1.6;
-}
