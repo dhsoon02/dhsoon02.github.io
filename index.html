@@ -77,10 +77,10 @@
             </tbody>
           </table>
 
-                    <!-- Research entries -->
+          <!-- Research entries -->
           <table style="width:100%;border:0px;border-spacing:0px 22px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-
+          
               <!-- ExMD -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -97,7 +97,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- WildAni4D -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -113,7 +113,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- Dance -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -131,7 +131,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- DogRecon -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -149,14 +149,20 @@
                   </p>
                 </td>
               </tr>
-
-              <!-- Selected Domestic Conference Papers header -->
+          
+              <!-- Toggle button -->
               <tr>
                 <td colspan="2" style="padding:8px 16px 0 16px;">
-                  <h3 style="margin-bottom:0;">Selected Domestic Conference Papers</h3>
+                  <a href="javascript:void(0);" onclick="toggleDomesticPapers()" id="domestic-toggle" style="font-size:16px;">
+                    [ Show selected domestic conference papers ]
+                  </a>
                 </td>
               </tr>
-
+          
+            </tbody>
+          
+            <tbody id="domestic-papers" style="display:none;">
+          
               <!-- KAIC 2026 - Depth -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -168,7 +174,6 @@
                   </span><br>
                   <strong>Donghyeon Soon*</strong>, Minseok Oh*, Sangchul Lee†<br>
                   <em><strong>Korea Artificial Intelligence Conference</strong>, 2026</em><br>
-                  <!-- <a href="#">[paper]</a> / <a href="#">[project page]</a> -->
                   <p>
                     We propose a training-free inference-time control framework that estimates perturbation sensitivity
                     uncertainty from monocular depth predictions and uses it for selective refinement and reliable 3D point
@@ -176,7 +181,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- KAIC 2026 - CC-RAG -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -188,7 +193,6 @@
                   </span><br>
                   <strong>Donghyeon Soon*</strong>, Minseok Oh*, Sangchul Lee†<br>
                   <em><strong>Korea Artificial Intelligence Conference</strong>, 2026</em><br>
-                  <!-- <a href="#">[paper]</a> / <a href="#">[project page]</a> -->
                   <p>
                     We present a training-free inference-time control method for retrieval-augmented generation that
                     combines rule-based confidence estimation with adaptive top-k retrieval to improve answer reliability
@@ -196,7 +200,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- KAIC 2026 - Style -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -218,7 +222,7 @@
                   </p>
                 </td>
               </tr>
-
+          
               <!-- Underwater -->
               <tr>
                 <td style="padding:16px;width:22%;vertical-align:top;">
@@ -240,7 +244,7 @@
                   </p>
                 </td>
               </tr>
-
+          
             </tbody>
           </table>
 
@@ -401,5 +405,19 @@
       id="clstr_globe"
       src="https://clustrmaps.com/globe.js?d=hfuG0znKDtwCWc14kuPkLgVIW5V_ygG7VKXRX9ivTNg"></script>
   </div>
+<script>
+  function toggleDomesticPapers() {
+    const section = document.getElementById("domestic-papers");
+    const button = document.getElementById("domestic-toggle");
+
+    if (section.style.display === "none" || section.style.display === "") {
+      section.style.display = "table-row-group";
+      button.innerHTML = "[ Hide selected domestic conference papers ]";
+    } else {
+      section.style.display = "none";
+      button.innerHTML = "[ Show selected domestic conference papers ]";
+    }
+  }
+</script>
 </body>
 </html>
