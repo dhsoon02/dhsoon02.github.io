@@ -138,6 +138,16 @@ h2 {
   font-weight: 700;
 }
 
+/* Paper titles that link to a project page keep the plain title look until hover. */
+a.papertitle-link {
+  color: inherit;
+}
+
+a.papertitle-link:focus,
+a.papertitle-link:hover {
+  color: #f09228;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
